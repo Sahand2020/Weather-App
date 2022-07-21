@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+.container-fluid,
+body {
+    background-image: url(img/forest.jpg);
+    background-size: cover;
+    height: auto;
+    /* max-height:200vh; */
+}
+
+.row {
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+}
+
+.header {
+    background-image: url(img/fall.jpg);
+    background-size: cover;
+    background-position: relative;
+    color: rgb(12, 11, 6);
+    text-align: center;
+    padding: 5rem;
+    border-radius: 20px 0 0 20px;
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 34px;
+    color: #e4eff7;
+}
+
+.header h3 {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #8fff70;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    color: #d0e5f5;
+}
+.main {
+    background-color: #212121;
+    border-radius: 0 20px 20px 0;
+}
+
+/* --------------inputs--------------- */
+
+.inputs {
+    padding: 6rem 0 2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs #cityInput {
+    height: 3.5rem;
+    width: 30rem;
+    background-color: #212121;
+    border: none;
+    border-bottom: solid 1px #16a864;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #16a864;
+    margin-left: 30px;
+    padding-right: 6px;
+}
+
+.inputs #add {
+    height: 3.5rem;
+    width: 6.5rem;
+    background-color: #16a864;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#add:hover {
+    background-color: #038045;
+}
+
+/* --------------display--------------- */
+
+.display {
+    text-align: center;
+    color: #16a864;
+}
+.wrapper {
+    margin: 0 9rem;
+    width: 50%;
+    background-color: #212121;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2 {
+    padding: 5px 0;
+    text-align: center;
+}
+.wrapper p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+/* ===================== media queries ==================*/
+
+@media only screen and (max-width: 768px) {
+    .header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .main {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .header h1 {
+        background-color: rgb(29, 29, 29);
+        box-shadow: 0 8px 25px 30px rgb(29, 29, 29);
+        border-radius: 20px;
+        padding: 15px;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .box {
+        padding: 50px 10px;
+    }
+}
