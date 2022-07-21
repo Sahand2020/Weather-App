@@ -6,3 +6,4 @@ This is a simple weather app that fetches data from an api and shows weather inf
 and this is the link of my project :
 <br/>
 <br/>
+https://weather-app-virid-delta.vercel.app/WeatherApp.html
